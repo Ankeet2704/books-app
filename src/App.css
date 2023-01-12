@@ -8,6 +8,7 @@
   color: white;
   animation-name: appear;
   animation-duration: 2s;
+  opacity: 0.9;
 }
 
 .leftNav{
@@ -37,11 +38,17 @@
 }
 
 .rightNav li{
-  padding: 8px;
+  padding: 20px;
   font-size: 22px;
 }
 .rightNav li:hover{
   color: #0f2839;
+}
+
+.stick-top{
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Animations */

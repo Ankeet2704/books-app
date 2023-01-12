@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import AboutPage from './AboutPage';
+import BooksPage from './BooksPage';
 
 function App() {
   return (
     <div className="App">
-      <header>
+      <div className="stick-top">
         <div className="mainHeader">
           <div className='leftNav '>
             <img src="https://www.azirish.org/wp-content/uploads/2016/05/bookgroup2.png" width="65" height="65"></img>
@@ -22,7 +23,8 @@ function App() {
             </ul>
           </div>
         </div>
-      </header>
+      </div>
+
       <AboutPage></AboutPage>
 
       <footer>
@@ -103,7 +105,7 @@ function App() {
         </div>
         <div className='text-center text-white'>
               <p>&copy; Copyright 2023 <b>BiblioSite</b>- All Rights Reserved</p>
-              <p>Designed by <b>Sawant, Mitalee</b></p>
+              <p>Designed by <b>Team Mumbai</b></p>
               <br/>
         </div>
       </footer>
