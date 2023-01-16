@@ -25,7 +25,7 @@ function App() {
         </div>
       </div>
 
-      <AboutPage></AboutPage>
+      <BooksPage></BooksPage>
 
       <footer>
         <div className='mainFooter'>
